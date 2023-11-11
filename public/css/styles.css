@@ -1,4 +1,5 @@
 /*FUENTES*/
+@import url('./responsive.css');
 @import url("https://fonts.googleapis.com/css2?family=Borel&family=Kanit:wght@700&family=Montserrat&family=Noto+Sans+NKo+Unjoined&display=swap");
 /*ESTILOS GENERALES*/
 
@@ -19,16 +20,15 @@ body {
 /* HEADER - HOME */
 
 #header {
-  width: 100%;
-  text-align: center;
+  width: 100%,
 }
 
 .home {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-  height: 200px;
 }
+
 
 .title-one {
   color: #f9eded;
@@ -37,18 +37,31 @@ body {
   text-align: center;
 }
 
+a{
+  text-decoration: none;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  
 .emoticon {
   width: 50px; /* Ancho deseado en píxeles */
   height: 50px; /* Altura deseada en píxeles */
-  margin-right: 313px;
+  margin-right: 13px;
+  margin-bottom: 29px;
 }
 
 .caption {
   color: #ccb3fe;
   font-family: "Borel", cursive;
   font-size: 30px;
-  padding: 0px 0px 0px 60px;
 }
+
+
 
 /*
 #nav {
