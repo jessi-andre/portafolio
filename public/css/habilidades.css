@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fefdf8;
+  }
+
+  h1{
+    color: #343434;
+    font-family: borel;
+    margin-top: 30px;
+    font-size: 42px;
+    padding: 42px;
+    margin: 22px 0px -46px 0px;
+  }
+  
