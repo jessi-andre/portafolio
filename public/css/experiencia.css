@@ -1,11 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   background-color: #343434;
 }
@@ -17,6 +10,7 @@ body {
   align-items: center; /* centra horizontalmente los elementos */
   padding: 10px;
 }
+
 /*H1 > Título 'Experiencia'*/
 
 .experiencia-titulo{
