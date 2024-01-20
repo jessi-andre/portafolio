@@ -66,6 +66,22 @@ a{
   font-size: 30px;
 }
 
+/*RESPONSIVE MOBILE*/
+@media screen and (max-width: 320px) {
+    
+.title-one {
+  font-size: 42px;
+}
+.caption {
+  font-size: 15px;
+}
+.emoticon {
+  width: 35px; /* Ancho deseado en píxeles */
+  height: 35px; /* Altura deseada en píxeles */
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+}
 
 
 /*
