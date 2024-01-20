@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0;
+  box-sizing: border-box;
 }
 /*body {
   width: 100vw;
@@ -19,16 +20,16 @@
 .titulo {
   color: #343434;
   font-family: borel;
-  font-size: 4vw;
+  font-size: 3vw;
   padding: 3vw;
   margin-bottom: -58px;
 }
 
 .foto {
-  width: 16%;
-  padding: 4vw;
-  margin: -28px 32px -30px 200px;
-  border-radius: 5vw;
+  width: 18%;
+  padding: 1vw;
+  margin: 4px 14px -20px 290px;
+  border-radius: 3vw;
 }
 
 h4 {
@@ -45,19 +46,22 @@ h4 {
 }
 
 .parrafo p {
-  width: 80vw;
+  width: 85vw;
   font-size: 1vw;
   font-family: victor mono;
   color: #343434;
   background-color: #c4abf9;
   border-radius: 1vw;
-  padding: 2vw;
+  padding: 1vw;
+  margin-top: 50px;
+  margin-right: 20px;
 }
 
 .arrow {
-  width: 3.9vw;
+  width: 4vw;
   float: right;
-  padding-right: 3vw;
+  margin-right: 2vw;
+  margin-top: 1.6vw;
 }
 
 /*Responsive*/
@@ -65,14 +69,14 @@ h4 {
 /*TABLET*/
 
 @media screen and (max-width: 768px) {
-  .perfil-titulo {
-    font-size: 2vw;
+  .titulo {
+    font-size: 4vw;
   }
 
   .foto {
-    width: 19%;
-    padding: 4vw;
-    border-radius: 5vw;
+    width: 25%;
+    padding: 1vw;
+    border-radius: 3vw;
     margin: 28px 12px 0px 154px;
   }
   h4 {
@@ -84,8 +88,8 @@ h4 {
     margin-top: 33px;
   }
   .arrow {
-    width: 4vw;
-    padding-right: 2vw;
+    width: 6vw;
+    padding-right: 1vw;
   }
 }
 
@@ -108,14 +112,14 @@ h4 {
     font-size: 11px;
   }
   .parrafo p {
-    font-size: 2.8vw;
+    font-size: 2.3vw;
     margin-top: 19px;
-    margin-right: 15px;
+    margin-right: 17px;
   }
 
   .arrow {
     width: 7vw;
-    padding-right: 2vw;
-    margin-top: -18px;
+    padding-right: 1vw;
+    margin-top: -20px;
   }
 }
