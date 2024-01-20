@@ -6,45 +6,47 @@ body {
 .contendeor-general {
   display: flex;
   justify-content: center;
-  flex-direction: column; /* Coloca los elementos en columna */
-  align-items: center; /* centra horizontalmente los elementos */
-  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  margin-top: 8px;
 }
 
 /*H1 > Título 'Experiencia'*/
 
-.experiencia-titulo{
+.experiencia-titulo {
   color: #fefdf8;
   font-family: borel;
-  font-size: 42px;
-  padding: 42px;
-  margin: 22px 0px -11px 0px;
+  font-size: 3vw;
+  padding: 3vw;
 }
 
 .contenedor-de-contenidos {
-  width: 33%;
+  width: 30vw;
   background-color: #fefdf8;
   border-radius: 11px;
-  padding: 36px;
+  padding: 22px;
+  transition: background-color 0.4s;
+  box-shadow: 0 0 26px rgba(245, 245, 246, 0.3);
 }
 
 /*H2 > Títulos de cada experiencia*/
 
 h2 {
   font-family: Victor Mono;
-  font-size: 18px;
+  font-size: 16px;
   color: #c4abf9;
 }
 
 h3 {
   margin: 11px 27px 11px 27px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Victor Mono;
 }
 
 p {
   margin: 11px 27px 11px 27px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: Victor Mono;
 }
 
@@ -67,4 +69,70 @@ a {
   width: 4%;
   float: right;
   margin: 0px 40px 20px 0px;
+}
+
+.contenedor-de-contenidos:hover {
+  border: 1px solid #c3aaf6;
+  background-color: #ded8ec;
+  box-shadow: 0 0 20px rgba(245, 245, 246, 0.3);
+}
+
+.contenedor-de-contenidos:hover h2 {
+  color: #343434; /* Establece el color inicial de los títulos */
+}
+
+
+/*mobile*/
+@media screen and (max-width: 320px) {
+  .experiencia-titulo {
+    font-size: 8vw;
+    padding: 8vw;
+  }
+  .contenedor-de-contenidos {
+    width: 86vw;
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+    margin: 0px 0px 7px 0px;
+  }
+  p {
+    margin: 0px 0px 7px 0px;
+    font-size: 10px;
+  }
+  .icon {
+    width: 5%;
+    margin: 4px 9px 0px 2px;
+  }
+
+  a {
+    font-size: 9px;
+  }
+
+  .arrow {
+    width: 8%;
+    float: right;
+    margin: -12px 9px 8px 0px;
+  }
+}
+
+
+/*tablet*/
+
+@media screen and (max-width: 768px) {
+  .experiencia-titulo {
+    font-size: 4vw;
+    padding: 5vw;
+  }
+  .contenedor-de-contenidos {
+    width: 62vw;
+    font-size: 12px;
+  }
+  .arrow{
+    width: 5%;
+    margin: -60px 32px 0px 0px;
+  }
 }
