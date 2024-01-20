@@ -1,38 +1,42 @@
-body {
-  width: 100%;
+* {
+  padding: 0px;
+  margin: 0;
+}
+/*body {
+  width: 100vw;
   margin: 0;
   padding: 0;
   background-color: #fefdf8;
+}*/
+
+.contenedor {
+  height: auto;
+  max-width: 100%;
+  align-items: center;
+  display: flex;
 }
 
-.perfil-titulo{
+.titulo {
   color: #343434;
   font-family: borel;
-  font-size: 42px;
-  padding: 42px;
-  margin: 22px 0px -46px 0px;
-}
-.contenedor-perfil {
-  max-width: 1028px;
-  margin: auto;
-  display: flex;
-  align-items: center;
+  font-size: 4vw;
+  padding: 3vw;
+  margin-bottom: -58px;
 }
 
-img {
-  width: 32%;
-  padding: 40px;
-  border-radius: 50px;
-  margin-bottom: -11px;
-  margin-left: 100px;
+.foto {
+  width: 16%;
+  padding: 4vw;
+  margin: -28px 32px -30px 200px;
+  border-radius: 5vw;
 }
 
 h4 {
-  width: 29%;
+  width: 50vw;
   color: #343434;
   font-family: Victor Mono;
-  margin-left: 80px;
-  font-size: 44px;
+  margin-left: 2vw;
+  font-size: 2vw;
 }
 
 .parrafo {
@@ -41,18 +45,77 @@ h4 {
 }
 
 .parrafo p {
-  width: 80%;
-  font-size: 16px;
+  width: 80vw;
+  font-size: 1vw;
   font-family: victor mono;
   color: #343434;
   background-color: #c4abf9;
-  border-radius: 18px;
-  padding: 22px;
-  margin: 33px;
+  border-radius: 1vw;
+  padding: 2vw;
 }
 
 .arrow {
-  display: flex;
-  width: 4%;
+  width: 3.9vw;
   float: right;
+  padding-right: 3vw;
+}
+
+/*Responsive*/
+
+/*TABLET*/
+
+@media screen and (max-width: 768px) {
+  .perfil-titulo {
+    font-size: 2vw;
+  }
+
+  .foto {
+    width: 19%;
+    padding: 4vw;
+    border-radius: 5vw;
+    margin: 28px 12px 0px 154px;
+  }
+  h4 {
+    width: 80%;
+    font-size: 16px;
+  }
+  .parrafo p {
+    font-size: 1.5vw;
+    margin-top: 33px;
+  }
+  .arrow {
+    width: 4vw;
+    padding-right: 2vw;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 320px) {
+  .titulo {
+    font-size: 6vw;
+    padding: 3vw;
+    padding-bottom: 22px;
+  }
+
+  .foto {
+    width: 25%;
+    padding: 3vw;
+    border-radius: 6vw;
+    margin: 12vw 0vw 0vw 12vw;
+  }
+
+  h4 {
+    font-size: 11px;
+  }
+  .parrafo p {
+    font-size: 2.8vw;
+    margin-top: 19px;
+    margin-right: 15px;
+  }
+
+  .arrow {
+    width: 7vw;
+    padding-right: 2vw;
+    margin-top: -18px;
+  }
 }
